@@ -1,0 +1,121 @@
+body{
+    background: url("https://b.kisscc0.com/20180517/uaw/kisscc0-macbook-pro-laptop-coffee-macbook-air-computer-5afd7c96860611.810523161526561942549.jpg");
+    background-size: cover;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-transform: uppercase;
+  color: rgb(177, 120, 45);
+  font-size: 1.75em;
+}
+
+p{
+  color: white;
+  width: 100%;
+}
+.red{
+  color: #ff0000;
+  font-weight: bold;
+}
+.green{
+  color: #35f50e;
+  font-weight: bold;
+}
+.white{
+  color: white;
+}
+strong{
+  color: rgb(177, 120, 45);
+}
+.display{
+    color: #7d705f;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: ridge 10px #696054;
+    font-size: 1000%;
+    font-weight: bold;
+    width: 1em;
+    text-align: center;
+    height: 200px;
+    margin-top: 2%; 
+}
+
+.input-field{
+    width: 25%;
+    height: 2em;
+    font-size: 1.2em;
+    border-radius: 5px;
+    color: #7d705f;
+    background: #00000080;
+    text-align: left;
+    border: none;
+    outline: none;
+    padding: 0 1.5em;
+    margin-right: 10px;
+}
+.input-field:focus{
+    color: black;
+    background: rgb(255, 255, 255);
+}
+
+.reveal-button{
+    border-radius: 5px;
+    font-size: 1.3em;
+    padding: 0.37em;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(177, 120, 45);
+    border: none;
+    outline: none;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.reveal-button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 158, 62);
+}
+
+@media(max-width:1000px){
+    .reveal-button{
+        margin-top: 2%;
+        border-radius: 5px;
+    }
+    .input-field{
+        width: 300px;
+        text-align: center;
+    }
+}
+
+@media(max-width:768px){
+    body{
+        padding: 0 1em 0 1em;
+        padding-top: 10%; 
+        display: block;
+        text-align: center;
+    }
+  h1 {
+    font-size: 1.6em;
+  }
+    .input-field{     
+        padding-left: 0.1em;
+        padding-right: 0.1em; 
+        margin-right: 0;
+    }
+      .display{
+      color: #7d705f;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      border: ridge 10px #696054;
+      font-size: 1000%;
+      font-weight: bold;
+      width: 1em;
+      margin: 0 auto;
+      text-align: center;
+      height: 200px;
+      margin-top: 2%; 
+  }
+}
